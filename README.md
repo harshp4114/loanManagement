@@ -1,19 +1,22 @@
-# Borrow Loan App | Online Loan Application (Backend)
+# Loan Management RestAPI
 
-- An online loan application where a user can login, signup, apply a loan, pay EMIs, and track their transactions.
-- RESTful backend server developed in Spring boot enabling users to stores data persistently in a relational database.
-- Integration of a third party chat system (tawk.to), Java Mail API and Swagger for API documentation.
+## Overview
 
-Application Link: https://online-loan-application-e0db7.web.app/
+This project is a Java Spring Boot-based REST API for managing loans. It provides endpoints to handle various loan operations such as creating, updating, retrieving, and deleting loan records. The API is designed to support a loan management system, and can be extended to meet additional requirements.
 
-## Technologies used
-1. Java 8
-2. Maven
-3. Spring Boot
-4. MySQL
+## Features
 
-## Steps to setup the application
-1. Install JDK 8 and MySQL workbench in your system.
-2. Inside MySQL worbench, create an schema named 'loan-db'
-3. Run the application as Spring Boot Project.
-4. Application will run on the url: http://localhost:8083/
+- **Create Loan**: Endpoint to create a new loan record.
+- **Get Loan**: Retrieve details of a specific loan by ID.
+- **Update Loan**: Modify details of an existing loan.
+- **Delete Loan**: Remove a loan record.
+- **List Loans**: Retrieve a list of all loan records with optional filters.
+
+## Requirements
+
+- Java 17 or later
+- Spring Boot 3.x
+- Maven 3.x
+
+
+
